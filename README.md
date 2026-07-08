@@ -7,8 +7,29 @@ What makes it special is the personalization:
 🔔 Get a voice alert explaining price and news changes in real time - AI running local and getting information Real time.
 📊 Everything is logged to a CSV — ready to plug into Power BI dashboards instantly
 
+## Setup
 
-#Run code on Bash = python main.py
+```bash
+pip install -r requirements.txt
+python main.py
+```
 
-Change stocks to analyze on stocks.py
-Change news to analyze on monitor.py
+## Files
+
+| File | Description |
+|---|---|
+| `main.py` | Controller — runs everything, handles alerts and CSV |
+| `monitor.py` | Google News RSS scraper |
+| `stocks.py` | Real-time stock price fetcher |
+| `visualize.py` | Plotly chart generator from CSV |
+
+## Requirements
+
+- Python 3.9+
+- macOS (voice alerts use the built-in `say` command)
+- No paid API keys needed
+
+## Author
+
+Built by [Your Name] — inspired by idiosyncratic risk and AI-driven 
+market intelligence. Open to feedback and collaboration.
