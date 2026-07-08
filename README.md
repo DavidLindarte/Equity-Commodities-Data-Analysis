@@ -31,5 +31,5 @@ python main.py
 
 ## Author
 
-Built by [Your Name] — inspired by idiosyncratic risk and AI-driven 
+Built by David Lindarte — inspired by idiosyncratic risk and AI-driven 
 market intelligence. Open to feedback and collaboration.
