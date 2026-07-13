@@ -1,6 +1,6 @@
 """
 Main controler.
-Run Stock and news monitor .py each 60 seconds
+Run Stock and news monitor .py each 15 seconds
 Give sound notification
 Create  CSV to be use in PB dashboards.
 
