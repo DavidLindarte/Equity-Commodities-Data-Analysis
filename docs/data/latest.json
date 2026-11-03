@@ -1,7 +1,7 @@
 {
- "generated_utc": "2026-11-03T10:30:21+00:00",
+ "generated_utc": "2026-11-03T19:30:23+00:00",
  "start_date": "2026-07-07",
- "snapshots": 1,
+ "snapshots": 2,
  "rules": {
   "price_alert_pct": 2.0,
   "news_spike": 5
@@ -10,8 +10,8 @@
   {
    "ticker": "WDS",
    "name": "Woodside Energy",
-   "price": 22.54,
-   "avg": 22.43,
+   "price": 22.3,
+   "avg": 22.42,
    "history": [
     {
      "date": "2026-07-07",
@@ -348,16 +348,20 @@
     {
      "date": "2026-11-02",
      "close": 22.54
+    },
+    {
+     "date": "2026-11-03",
+     "close": 22.3
     }
    ],
-   "pct_vs_avg": 0.49,
-   "pct_vs_last": null
+   "pct_vs_avg": -0.54,
+   "pct_vs_last": -1.06
   },
   {
    "ticker": "SHEL",
    "name": "Shell",
-   "price": 104.94,
-   "avg": 93.93,
+   "price": 104.0,
+   "avg": 94.05,
    "history": [
     {
      "date": "2026-07-07",
@@ -694,65 +698,69 @@
     {
      "date": "2026-11-02",
      "close": 104.94
+    },
+    {
+     "date": "2026-11-03",
+     "close": 104.0
     }
    ],
-   "pct_vs_avg": 11.72,
-   "pct_vs_last": null
+   "pct_vs_avg": 10.58,
+   "pct_vs_last": -0.9
   }
  ],
  "topics": [
   {
    "topic": "LNG production offshore",
-   "count": 77,
+   "count": null,
    "delta": null,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
-     "count": 77
+     "count": 77.0
     }
    ]
   },
   {
    "topic": "gas accident 2026",
-   "count": 34,
+   "count": null,
    "delta": null,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
-     "count": 34
+     "count": 34.0
     }
    ]
   },
   {
    "topic": "communities strike oil",
-   "count": 70,
+   "count": null,
    "delta": null,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
-     "count": 70
+     "count": 70.0
     }
    ]
   },
   {
    "topic": "lis westcott",
-   "count": 0,
+   "count": null,
    "delta": null,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
-     "count": 0
+     "count": 0.0
     }
    ]
   },
   {
    "topic": "wael sawan australia",
-   "count": 7,
+   "count": null,
    "delta": null,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
-     "count": 7
+     "count": 7.0
     }
    ]
   }

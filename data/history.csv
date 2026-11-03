@@ -6,3 +6,10 @@ timestamp,type,name,value,pct_vs_avg,pct_vs_last,avg
 2026-11-03 10:30:21,news,communities strike oil,70,,,
 2026-11-03 10:30:21,news,lis westcott,0,,,
 2026-11-03 10:30:21,news,wael sawan australia,7,,,
+2026-11-03 19:30:23,stock,WDS,22.3,-0.54,-1.06,22.42
+2026-11-03 19:30:23,stock,SHEL,104.0,10.58,-0.9,94.05
+2026-11-03 19:30:23,news,LNG production offshore,,,,
+2026-11-03 19:30:23,news,gas accident 2026,,,,
+2026-11-03 19:30:23,news,communities strike oil,,,,
+2026-11-03 19:30:23,news,lis westcott,,,,
+2026-11-03 19:30:23,news,wael sawan australia,,,,
