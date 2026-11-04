@@ -1,7 +1,7 @@
 {
- "generated_utc": "2026-11-04T01:24:12+00:00",
+ "generated_utc": "2026-11-04T10:58:22+00:00",
  "start_date": "2026-07-07",
- "snapshots": 3,
+ "snapshots": 4,
  "rules": {
   "price_alert_pct": 2.0,
   "news_spike": 5
@@ -10,8 +10,8 @@
   {
    "ticker": "WDS",
    "name": "Woodside Energy",
-   "price": 22.54,
-   "avg": 22.43,
+   "price": 22.36,
+   "avg": 22.42,
    "history": [
     {
      "date": "2026-07-07",
@@ -348,16 +348,20 @@
     {
      "date": "2026-11-02",
      "close": 22.54
+    },
+    {
+     "date": "2026-11-03",
+     "close": 22.36
     }
    ],
-   "pct_vs_avg": 0.49,
-   "pct_vs_last": 1.08
+   "pct_vs_avg": -0.27,
+   "pct_vs_last": -0.8
   },
   {
    "ticker": "SHEL",
    "name": "Shell",
-   "price": 104.94,
-   "avg": 93.93,
+   "price": 104.2,
+   "avg": 94.05,
    "history": [
     {
      "date": "2026-07-07",
@@ -694,10 +698,14 @@
     {
      "date": "2026-11-02",
      "close": 104.94
+    },
+    {
+     "date": "2026-11-03",
+     "close": 104.2
     }
    ],
-   "pct_vs_avg": 11.72,
-   "pct_vs_last": 0.9
+   "pct_vs_avg": 10.79,
+   "pct_vs_last": -0.71
   }
  ],
  "topics": [
@@ -712,6 +720,10 @@
     },
     {
      "timestamp": "2026-11-04 01:24:12",
+     "count": 77.0
+    },
+    {
+     "timestamp": "2026-11-04 10:58:22",
      "count": 77
     }
    ]
@@ -719,7 +731,7 @@
   {
    "topic": "gas accident 2026",
    "count": 100,
-   "delta": 66,
+   "delta": 0,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -727,14 +739,18 @@
     },
     {
      "timestamp": "2026-11-04 01:24:12",
+     "count": 100.0
+    },
+    {
+     "timestamp": "2026-11-04 10:58:22",
      "count": 100
     }
    ]
   },
   {
    "topic": "communities strike oil",
-   "count": 26,
-   "delta": -44,
+   "count": 31,
+   "delta": 5,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -742,7 +758,11 @@
     },
     {
      "timestamp": "2026-11-04 01:24:12",
-     "count": 26
+     "count": 26.0
+    },
+    {
+     "timestamp": "2026-11-04 10:58:22",
+     "count": 31
     }
    ]
   },
@@ -757,6 +777,10 @@
     },
     {
      "timestamp": "2026-11-04 01:24:12",
+     "count": 0.0
+    },
+    {
+     "timestamp": "2026-11-04 10:58:22",
      "count": 0
     }
    ]
@@ -772,12 +796,21 @@
     },
     {
      "timestamp": "2026-11-04 01:24:12",
+     "count": 7.0
+    },
+    {
+     "timestamp": "2026-11-04 10:58:22",
      "count": 7
     }
    ]
   }
  ],
  "alerts": [
+  {
+   "timestamp": "2026-11-04 10:58:22",
+   "kind": "news",
+   "text": "News spike: 'communities strike oil' grew by 5 articles (26 \u2192 31)"
+  },
   {
    "timestamp": "2026-11-04 01:24:12",
    "kind": "news",
