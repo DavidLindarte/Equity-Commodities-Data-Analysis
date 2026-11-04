@@ -1,7 +1,7 @@
 {
- "generated_utc": "2026-11-03T19:30:23+00:00",
+ "generated_utc": "2026-11-04T01:24:12+00:00",
  "start_date": "2026-07-07",
- "snapshots": 2,
+ "snapshots": 3,
  "rules": {
   "price_alert_pct": 2.0,
   "news_spike": 5
@@ -10,8 +10,8 @@
   {
    "ticker": "WDS",
    "name": "Woodside Energy",
-   "price": 22.3,
-   "avg": 22.42,
+   "price": 22.54,
+   "avg": 22.43,
    "history": [
     {
      "date": "2026-07-07",
@@ -348,20 +348,16 @@
     {
      "date": "2026-11-02",
      "close": 22.54
-    },
-    {
-     "date": "2026-11-03",
-     "close": 22.3
     }
    ],
-   "pct_vs_avg": -0.54,
-   "pct_vs_last": -1.06
+   "pct_vs_avg": 0.49,
+   "pct_vs_last": 1.08
   },
   {
    "ticker": "SHEL",
    "name": "Shell",
-   "price": 104.0,
-   "avg": 94.05,
+   "price": 104.94,
+   "avg": 93.93,
    "history": [
     {
      "date": "2026-07-07",
@@ -698,72 +694,94 @@
     {
      "date": "2026-11-02",
      "close": 104.94
-    },
-    {
-     "date": "2026-11-03",
-     "close": 104.0
     }
    ],
-   "pct_vs_avg": 10.58,
-   "pct_vs_last": -0.9
+   "pct_vs_avg": 11.72,
+   "pct_vs_last": 0.9
   }
  ],
  "topics": [
   {
    "topic": "LNG production offshore",
-   "count": null,
-   "delta": null,
+   "count": 77,
+   "delta": 0,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
      "count": 77.0
+    },
+    {
+     "timestamp": "2026-11-04 01:24:12",
+     "count": 77
     }
    ]
   },
   {
    "topic": "gas accident 2026",
-   "count": null,
-   "delta": null,
+   "count": 100,
+   "delta": 66,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
      "count": 34.0
+    },
+    {
+     "timestamp": "2026-11-04 01:24:12",
+     "count": 100
     }
    ]
   },
   {
    "topic": "communities strike oil",
-   "count": null,
-   "delta": null,
+   "count": 26,
+   "delta": -44,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
      "count": 70.0
+    },
+    {
+     "timestamp": "2026-11-04 01:24:12",
+     "count": 26
     }
    ]
   },
   {
    "topic": "lis westcott",
-   "count": null,
-   "delta": null,
+   "count": 0,
+   "delta": 0,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
      "count": 0.0
+    },
+    {
+     "timestamp": "2026-11-04 01:24:12",
+     "count": 0
     }
    ]
   },
   {
    "topic": "wael sawan australia",
-   "count": null,
-   "delta": null,
+   "count": 7,
+   "delta": 0,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
      "count": 7.0
+    },
+    {
+     "timestamp": "2026-11-04 01:24:12",
+     "count": 7
     }
    ]
   }
  ],
- "alerts": []
+ "alerts": [
+  {
+   "timestamp": "2026-11-04 01:24:12",
+   "kind": "news",
+   "text": "News spike: 'gas accident 2026' grew by 66 articles (34 \u2192 100)"
+  }
+ ]
 }
