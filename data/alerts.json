@@ -1,5 +1,15 @@
 [
  {
+  "timestamp": "2026-11-04 19:47:13",
+  "kind": "price",
+  "text": "WDS moved -4.47% since the last check (now $21.36)"
+ },
+ {
+  "timestamp": "2026-11-04 19:47:13",
+  "kind": "price",
+  "text": "SHEL moved -2.75% since the last check (now $101.33)"
+ },
+ {
   "timestamp": "2026-11-04 10:58:22",
   "kind": "news",
   "text": "News spike: 'communities strike oil' grew by 5 articles (26 \u2192 31)"
