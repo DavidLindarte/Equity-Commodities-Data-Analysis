@@ -1,7 +1,7 @@
 {
- "generated_utc": "2026-11-05T01:28:39+00:00",
+ "generated_utc": "2026-11-05T10:58:56+00:00",
  "start_date": "2026-07-07",
- "snapshots": 6,
+ "snapshots": 7,
  "rules": {
   "price_alert_pct": 2.0,
   "news_spike": 5
@@ -10,8 +10,8 @@
   {
    "ticker": "WDS",
    "name": "Woodside Energy",
-   "price": 22.36,
-   "avg": 22.42,
+   "price": 21.51,
+   "avg": 22.41,
    "history": [
     {
      "date": "2026-07-07",
@@ -352,16 +352,20 @@
     {
      "date": "2026-11-03",
      "close": 22.36
+    },
+    {
+     "date": "2026-11-04",
+     "close": 21.51
     }
    ],
-   "pct_vs_avg": -0.27,
-   "pct_vs_last": 4.68
+   "pct_vs_avg": -4.02,
+   "pct_vs_last": -3.8
   },
   {
    "ticker": "SHEL",
    "name": "Shell",
-   "price": 104.2,
-   "avg": 94.05,
+   "price": 101.86,
+   "avg": 94.14,
    "history": [
     {
      "date": "2026-07-07",
@@ -702,10 +706,14 @@
     {
      "date": "2026-11-03",
      "close": 104.2
+    },
+    {
+     "date": "2026-11-04",
+     "close": 101.86
     }
    ],
-   "pct_vs_avg": 10.79,
-   "pct_vs_last": 2.83
+   "pct_vs_avg": 8.2,
+   "pct_vs_last": -2.25
   }
  ],
  "topics": [
@@ -732,14 +740,18 @@
     },
     {
      "timestamp": "2026-11-05 01:28:39",
+     "count": 34.0
+    },
+    {
+     "timestamp": "2026-11-05 10:58:56",
      "count": 34
     }
    ]
   },
   {
    "topic": "gas accident 2026",
-   "count": 35,
-   "delta": 0,
+   "count": 32,
+   "delta": -3,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -759,14 +771,18 @@
     },
     {
      "timestamp": "2026-11-05 01:28:39",
-     "count": 35
+     "count": 35.0
+    },
+    {
+     "timestamp": "2026-11-05 10:58:56",
+     "count": 32
     }
    ]
   },
   {
    "topic": "communities strike oil",
-   "count": 27,
-   "delta": -3,
+   "count": 30,
+   "delta": 3,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -786,7 +802,11 @@
     },
     {
      "timestamp": "2026-11-05 01:28:39",
-     "count": 27
+     "count": 27.0
+    },
+    {
+     "timestamp": "2026-11-05 10:58:56",
+     "count": 30
     }
    ]
   },
@@ -813,6 +833,10 @@
     },
     {
      "timestamp": "2026-11-05 01:28:39",
+     "count": 0.0
+    },
+    {
+     "timestamp": "2026-11-05 10:58:56",
      "count": 0
     }
    ]
@@ -840,12 +864,26 @@
     },
     {
      "timestamp": "2026-11-05 01:28:39",
+     "count": 7.0
+    },
+    {
+     "timestamp": "2026-11-05 10:58:56",
      "count": 7
     }
    ]
   }
  ],
  "alerts": [
+  {
+   "timestamp": "2026-11-05 10:58:56",
+   "kind": "price",
+   "text": "WDS moved -3.80% since the last check (now $21.51)"
+  },
+  {
+   "timestamp": "2026-11-05 10:58:56",
+   "kind": "price",
+   "text": "SHEL moved -2.25% since the last check (now $101.86)"
+  },
   {
    "timestamp": "2026-11-05 01:28:39",
    "kind": "price",
