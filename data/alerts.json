@@ -1,5 +1,15 @@
 [
  {
+  "timestamp": "2026-11-05 01:28:39",
+  "kind": "price",
+  "text": "WDS moved +4.68% since the last check (now $22.36)"
+ },
+ {
+  "timestamp": "2026-11-05 01:28:39",
+  "kind": "price",
+  "text": "SHEL moved +2.83% since the last check (now $104.2)"
+ },
+ {
   "timestamp": "2026-11-04 19:47:13",
   "kind": "price",
   "text": "WDS moved -4.47% since the last check (now $21.36)"
