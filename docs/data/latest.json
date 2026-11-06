@@ -1,7 +1,7 @@
 {
- "generated_utc": "2026-11-05T19:58:58+00:00",
+ "generated_utc": "2026-11-06T01:34:50+00:00",
  "start_date": "2026-07-07",
- "snapshots": 8,
+ "snapshots": 9,
  "rules": {
   "price_alert_pct": 2.0,
   "news_spike": 5
@@ -10,8 +10,8 @@
   {
    "ticker": "WDS",
    "name": "Woodside Energy",
-   "price": 21.64,
-   "avg": 22.4,
+   "price": 21.51,
+   "avg": 22.41,
    "history": [
     {
      "date": "2026-07-07",
@@ -356,20 +356,16 @@
     {
      "date": "2026-11-04",
      "close": 21.51
-    },
-    {
-     "date": "2026-11-05",
-     "close": 21.64
     }
    ],
-   "pct_vs_avg": -3.39,
-   "pct_vs_last": 0.6
+   "pct_vs_avg": -4.02,
+   "pct_vs_last": -0.6
   },
   {
    "ticker": "SHEL",
    "name": "Shell",
-   "price": 101.04,
-   "avg": 94.22,
+   "price": 101.86,
+   "avg": 94.14,
    "history": [
     {
      "date": "2026-07-07",
@@ -714,14 +710,10 @@
     {
      "date": "2026-11-04",
      "close": 101.86
-    },
-    {
-     "date": "2026-11-05",
-     "close": 101.04
     }
    ],
-   "pct_vs_avg": 7.24,
-   "pct_vs_last": -0.81
+   "pct_vs_avg": 8.2,
+   "pct_vs_last": 0.81
   }
  ],
  "topics": [
@@ -756,6 +748,10 @@
     },
     {
      "timestamp": "2026-11-05 19:58:58",
+     "count": 34.0
+    },
+    {
+     "timestamp": "2026-11-06 01:34:50",
      "count": 34
     }
    ]
@@ -763,7 +759,7 @@
   {
    "topic": "gas accident 2026",
    "count": 33,
-   "delta": 1,
+   "delta": 0,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -791,14 +787,18 @@
     },
     {
      "timestamp": "2026-11-05 19:58:58",
+     "count": 33.0
+    },
+    {
+     "timestamp": "2026-11-06 01:34:50",
      "count": 33
     }
    ]
   },
   {
    "topic": "communities strike oil",
-   "count": 29,
-   "delta": -1,
+   "count": 32,
+   "delta": 3,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -826,7 +826,11 @@
     },
     {
      "timestamp": "2026-11-05 19:58:58",
-     "count": 29
+     "count": 29.0
+    },
+    {
+     "timestamp": "2026-11-06 01:34:50",
+     "count": 32
     }
    ]
   },
@@ -861,6 +865,10 @@
     },
     {
      "timestamp": "2026-11-05 19:58:58",
+     "count": 0.0
+    },
+    {
+     "timestamp": "2026-11-06 01:34:50",
      "count": 0
     }
    ]
@@ -896,6 +904,10 @@
     },
     {
      "timestamp": "2026-11-05 19:58:58",
+     "count": 7.0
+    },
+    {
+     "timestamp": "2026-11-06 01:34:50",
      "count": 7
     }
    ]
