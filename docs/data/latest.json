@@ -1,7 +1,7 @@
 {
- "generated_utc": "2026-11-07T00:57:19+00:00",
+ "generated_utc": "2026-11-09T06:36:02+00:00",
  "start_date": "2026-07-07",
- "snapshots": 12,
+ "snapshots": 13,
  "rules": {
   "price_alert_pct": 2.0,
   "news_spike": 5
@@ -367,7 +367,7 @@
     }
    ],
    "pct_vs_avg": -6.03,
-   "pct_vs_last": -0.05
+   "pct_vs_last": 0.0
   },
   {
    "ticker": "SHEL",
@@ -729,14 +729,14 @@
     }
    ],
    "pct_vs_avg": 5.11,
-   "pct_vs_last": -0.08
+   "pct_vs_last": 0.0
   }
  ],
  "topics": [
   {
    "topic": "LNG production offshore",
-   "count": 35,
-   "delta": 1,
+   "count": 34,
+   "delta": -1,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -780,14 +780,18 @@
     },
     {
      "timestamp": "2026-11-07 00:57:19",
-     "count": 35
+     "count": 35.0
+    },
+    {
+     "timestamp": "2026-11-09 06:36:02",
+     "count": 34
     }
    ]
   },
   {
    "topic": "gas accident 2026",
-   "count": 32,
-   "delta": 0,
+   "count": 33,
+   "delta": 1,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -831,14 +835,18 @@
     },
     {
      "timestamp": "2026-11-07 00:57:19",
-     "count": 32
+     "count": 32.0
+    },
+    {
+     "timestamp": "2026-11-09 06:36:02",
+     "count": 33
     }
    ]
   },
   {
    "topic": "communities strike oil",
-   "count": 28,
-   "delta": -2,
+   "count": 31,
+   "delta": 3,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -882,7 +890,11 @@
     },
     {
      "timestamp": "2026-11-07 00:57:19",
-     "count": 28
+     "count": 28.0
+    },
+    {
+     "timestamp": "2026-11-09 06:36:02",
+     "count": 31
     }
    ]
   },
@@ -933,14 +945,18 @@
     },
     {
      "timestamp": "2026-11-07 00:57:19",
+     "count": 0.0
+    },
+    {
+     "timestamp": "2026-11-09 06:36:02",
      "count": 0
     }
    ]
   },
   {
    "topic": "wael sawan australia",
-   "count": 8,
-   "delta": 0,
+   "count": 7,
+   "delta": -1,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -984,7 +1000,11 @@
     },
     {
      "timestamp": "2026-11-07 00:57:19",
-     "count": 8
+     "count": 8.0
+    },
+    {
+     "timestamp": "2026-11-09 06:36:02",
+     "count": 7
     }
    ]
   }
