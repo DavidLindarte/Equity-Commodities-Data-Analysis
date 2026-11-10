@@ -1,7 +1,7 @@
 {
- "generated_utc": "2026-11-10T14:55:37+00:00",
+ "generated_utc": "2026-11-10T21:19:33+00:00",
  "start_date": "2026-07-07",
- "snapshots": 16,
+ "snapshots": 17,
  "rules": {
   "price_alert_pct": 2.0,
   "news_spike": 5
@@ -10,7 +10,7 @@
   {
    "ticker": "WDS",
    "name": "Woodside Energy",
-   "price": 21.14,
+   "price": 21.07,
    "avg": 22.36,
    "history": [
     {
@@ -371,16 +371,16 @@
     },
     {
      "date": "2026-11-10",
-     "close": 21.14
+     "close": 21.07
     }
    ],
-   "pct_vs_avg": -5.46,
-   "pct_vs_last": 0.81
+   "pct_vs_avg": -5.77,
+   "pct_vs_last": -0.33
   },
   {
    "ticker": "SHEL",
    "name": "Shell",
-   "price": 97.35,
+   "price": 97.27,
    "avg": 94.35,
    "history": [
     {
@@ -741,11 +741,11 @@
     },
     {
      "date": "2026-11-10",
-     "close": 97.35
+     "close": 97.27
     }
    ],
-   "pct_vs_avg": 3.18,
-   "pct_vs_last": -1.55
+   "pct_vs_avg": 3.09,
+   "pct_vs_last": -0.08
   }
  ],
  "topics": [
@@ -812,6 +812,10 @@
     },
     {
      "timestamp": "2026-11-10 14:55:37",
+     "count": 35.0
+    },
+    {
+     "timestamp": "2026-11-10 21:19:33",
      "count": 35
     }
    ]
@@ -879,6 +883,10 @@
     },
     {
      "timestamp": "2026-11-10 14:55:37",
+     "count": 32.0
+    },
+    {
+     "timestamp": "2026-11-10 21:19:33",
      "count": 32
     }
    ]
@@ -886,7 +894,7 @@
   {
    "topic": "communities strike oil",
    "count": 32,
-   "delta": -1,
+   "delta": 0,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -946,6 +954,10 @@
     },
     {
      "timestamp": "2026-11-10 14:55:37",
+     "count": 32.0
+    },
+    {
+     "timestamp": "2026-11-10 21:19:33",
      "count": 32
     }
    ]
@@ -1013,6 +1025,10 @@
     },
     {
      "timestamp": "2026-11-10 14:55:37",
+     "count": 0.0
+    },
+    {
+     "timestamp": "2026-11-10 21:19:33",
      "count": 0
     }
    ]
@@ -1020,7 +1036,7 @@
   {
    "topic": "wael sawan australia",
    "count": 6,
-   "delta": -1,
+   "delta": 0,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -1080,6 +1096,10 @@
     },
     {
      "timestamp": "2026-11-10 14:55:37",
+     "count": 6.0
+    },
+    {
+     "timestamp": "2026-11-10 21:19:33",
      "count": 6
     }
    ]
