@@ -1,7 +1,7 @@
 {
- "generated_utc": "2026-11-14T01:27:42+00:00",
+ "generated_utc": "2026-11-16T06:33:25+00:00",
  "start_date": "2026-07-07",
- "snapshots": 26,
+ "snapshots": 27,
  "rules": {
   "price_alert_pct": 2.0,
   "news_spike": 5
@@ -10,8 +10,8 @@
   {
    "ticker": "WDS",
    "name": "Woodside Energy",
-   "price": 21.24,
-   "avg": 22.33,
+   "price": 21.08,
+   "avg": 22.32,
    "history": [
     {
      "date": "2026-07-07",
@@ -380,16 +380,20 @@
     {
      "date": "2026-11-12",
      "close": 21.24
+    },
+    {
+     "date": "2026-11-13",
+     "close": 21.08
     }
    ],
-   "pct_vs_avg": -4.88,
-   "pct_vs_last": 1.0
+   "pct_vs_avg": -5.56,
+   "pct_vs_last": -0.75
   },
   {
    "ticker": "SHEL",
    "name": "Shell",
-   "price": 97.78,
-   "avg": 93.69,
+   "price": 99.08,
+   "avg": 93.75,
    "history": [
     {
      "date": "2026-07-07",
@@ -758,17 +762,21 @@
     {
      "date": "2026-11-12",
      "close": 97.78
+    },
+    {
+     "date": "2026-11-13",
+     "close": 99.08
     }
    ],
-   "pct_vs_avg": 4.37,
-   "pct_vs_last": -0.98
+   "pct_vs_avg": 5.69,
+   "pct_vs_last": 1.33
   }
  ],
  "topics": [
   {
    "topic": "LNG production offshore",
-   "count": 43,
-   "delta": 8,
+   "count": 35,
+   "delta": -8,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -868,14 +876,18 @@
     },
     {
      "timestamp": "2026-11-14 01:27:42",
-     "count": 43
+     "count": 43.0
+    },
+    {
+     "timestamp": "2026-11-16 06:33:25",
+     "count": 35
     }
    ]
   },
   {
    "topic": "gas accident 2026",
-   "count": 33,
-   "delta": 2,
+   "count": 34,
+   "delta": 1,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -975,14 +987,18 @@
     },
     {
      "timestamp": "2026-11-14 01:27:42",
-     "count": 33
+     "count": 33.0
+    },
+    {
+     "timestamp": "2026-11-16 06:33:25",
+     "count": 34
     }
    ]
   },
   {
    "topic": "communities strike oil",
    "count": 27,
-   "delta": -2,
+   "delta": 0,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -1082,6 +1098,10 @@
     },
     {
      "timestamp": "2026-11-14 01:27:42",
+     "count": 27.0
+    },
+    {
+     "timestamp": "2026-11-16 06:33:25",
      "count": 27
     }
    ]
@@ -1189,14 +1209,18 @@
     },
     {
      "timestamp": "2026-11-14 01:27:42",
+     "count": 0.0
+    },
+    {
+     "timestamp": "2026-11-16 06:33:25",
      "count": 0
     }
    ]
   },
   {
    "topic": "wael sawan australia",
-   "count": 5,
-   "delta": 0,
+   "count": 7,
+   "delta": 2,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -1296,7 +1320,11 @@
     },
     {
      "timestamp": "2026-11-14 01:27:42",
-     "count": 5
+     "count": 5.0
+    },
+    {
+     "timestamp": "2026-11-16 06:33:25",
+     "count": 7
     }
    ]
   }
