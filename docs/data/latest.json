@@ -1,7 +1,7 @@
 {
- "generated_utc": "2026-11-18T11:45:36+00:00",
+ "generated_utc": "2026-11-18T20:34:33+00:00",
  "start_date": "2026-07-07",
- "snapshots": 32,
+ "snapshots": 33,
  "rules": {
   "price_alert_pct": 2.0,
   "news_spike": 5
@@ -10,8 +10,8 @@
   {
    "ticker": "WDS",
    "name": "Woodside Energy",
-   "price": 20.39,
-   "avg": 22.28,
+   "price": 20.12,
+   "avg": 22.26,
    "history": [
     {
      "date": "2026-07-07",
@@ -392,16 +392,20 @@
     {
      "date": "2026-11-17",
      "close": 20.39
+    },
+    {
+     "date": "2026-11-18",
+     "close": 20.12
     }
    ],
-   "pct_vs_avg": -8.48,
-   "pct_vs_last": 0.0
+   "pct_vs_avg": -9.61,
+   "pct_vs_last": -1.32
   },
   {
    "ticker": "SHEL",
    "name": "Shell",
-   "price": 97.24,
-   "avg": 93.82,
+   "price": 94.37,
+   "avg": 93.83,
    "history": [
     {
      "date": "2026-07-07",
@@ -782,17 +786,21 @@
     {
      "date": "2026-11-17",
      "close": 97.24
+    },
+    {
+     "date": "2026-11-18",
+     "close": 94.37
     }
    ],
-   "pct_vs_avg": 3.65,
-   "pct_vs_last": 0.0
+   "pct_vs_avg": 0.58,
+   "pct_vs_last": -2.95
   }
  ],
  "topics": [
   {
    "topic": "LNG production offshore",
-   "count": 33,
-   "delta": -1,
+   "count": 35,
+   "delta": 2,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -916,14 +924,18 @@
     },
     {
      "timestamp": "2026-11-18 11:45:36",
-     "count": 33
+     "count": 33.0
+    },
+    {
+     "timestamp": "2026-11-18 20:34:33",
+     "count": 35
     }
    ]
   },
   {
    "topic": "gas accident 2026",
-   "count": 34,
-   "delta": 1,
+   "count": 33,
+   "delta": -1,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -1047,14 +1059,18 @@
     },
     {
      "timestamp": "2026-11-18 11:45:36",
-     "count": 34
+     "count": 34.0
+    },
+    {
+     "timestamp": "2026-11-18 20:34:33",
+     "count": 33
     }
    ]
   },
   {
    "topic": "communities strike oil",
-   "count": 28,
-   "delta": 0,
+   "count": 21,
+   "delta": -7,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -1178,7 +1194,11 @@
     },
     {
      "timestamp": "2026-11-18 11:45:36",
-     "count": 28
+     "count": 28.0
+    },
+    {
+     "timestamp": "2026-11-18 20:34:33",
+     "count": 21
     }
    ]
   },
@@ -1309,6 +1329,10 @@
     },
     {
      "timestamp": "2026-11-18 11:45:36",
+     "count": 0.0
+    },
+    {
+     "timestamp": "2026-11-18 20:34:33",
      "count": 0
     }
    ]
@@ -1436,12 +1460,21 @@
     },
     {
      "timestamp": "2026-11-18 11:45:36",
+     "count": 7.0
+    },
+    {
+     "timestamp": "2026-11-18 20:34:33",
      "count": 7
     }
    ]
   }
  ],
  "alerts": [
+  {
+   "timestamp": "2026-11-18 20:34:33",
+   "kind": "price",
+   "text": "SHEL moved -2.95% since the last check (now $94.37)"
+  },
   {
    "timestamp": "2026-11-16 19:38:06",
    "kind": "price",
