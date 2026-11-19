@@ -1,7 +1,7 @@
 {
- "generated_utc": "2026-11-19T11:43:06+00:00",
+ "generated_utc": "2026-11-19T20:40:05+00:00",
  "start_date": "2026-07-07",
- "snapshots": 35,
+ "snapshots": 36,
  "rules": {
   "price_alert_pct": 2.0,
   "news_spike": 5
@@ -11,7 +11,7 @@
    "ticker": "WDS",
    "name": "Woodside Energy",
    "price": 20.08,
-   "avg": 22.26,
+   "avg": 22.23,
    "history": [
     {
      "date": "2026-07-07",
@@ -396,15 +396,19 @@
     {
      "date": "2026-11-18",
      "close": 20.08
+    },
+    {
+     "date": "2026-11-19",
+     "close": 20.08
     }
    ],
-   "pct_vs_avg": -9.79,
+   "pct_vs_avg": -9.67,
    "pct_vs_last": 0.0
   },
   {
    "ticker": "SHEL",
    "name": "Shell",
-   "price": 94.34,
+   "price": 93.95,
    "avg": 93.83,
    "history": [
     {
@@ -790,17 +794,21 @@
     {
      "date": "2026-11-18",
      "close": 94.34
+    },
+    {
+     "date": "2026-11-19",
+     "close": 93.95
     }
    ],
-   "pct_vs_avg": 0.54,
-   "pct_vs_last": -2.98
+   "pct_vs_avg": 0.13,
+   "pct_vs_last": -0.41
   }
  ],
  "topics": [
   {
    "topic": "LNG production offshore",
-   "count": 34,
-   "delta": -1,
+   "count": 75,
+   "delta": 41,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -936,7 +944,11 @@
     },
     {
      "timestamp": "2026-11-19 11:43:06",
-     "count": 34
+     "count": 34.0
+    },
+    {
+     "timestamp": "2026-11-19 20:40:05",
+     "count": 75
     }
    ]
   },
@@ -1079,14 +1091,18 @@
     },
     {
      "timestamp": "2026-11-19 11:43:06",
+     "count": 32.0
+    },
+    {
+     "timestamp": "2026-11-19 20:40:05",
      "count": 32
     }
    ]
   },
   {
    "topic": "communities strike oil",
-   "count": 29,
-   "delta": 4,
+   "count": 27,
+   "delta": -2,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -1222,7 +1238,11 @@
     },
     {
      "timestamp": "2026-11-19 11:43:06",
-     "count": 29
+     "count": 29.0
+    },
+    {
+     "timestamp": "2026-11-19 20:40:05",
+     "count": 27
     }
    ]
   },
@@ -1365,6 +1385,10 @@
     },
     {
      "timestamp": "2026-11-19 11:43:06",
+     "count": 0.0
+    },
+    {
+     "timestamp": "2026-11-19 20:40:05",
      "count": 0
     }
    ]
@@ -1500,12 +1524,21 @@
     },
     {
      "timestamp": "2026-11-19 11:43:06",
+     "count": 7.0
+    },
+    {
+     "timestamp": "2026-11-19 20:40:05",
      "count": 7
     }
    ]
   }
  ],
  "alerts": [
+  {
+   "timestamp": "2026-11-19 20:40:05",
+   "kind": "news",
+   "text": "News spike: 'LNG production offshore' grew by 41 articles (34 \u2192 75)"
+  },
   {
    "timestamp": "2026-11-19 11:43:06",
    "kind": "price",

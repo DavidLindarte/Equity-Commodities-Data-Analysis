@@ -1,5 +1,10 @@
 [
  {
+  "timestamp": "2026-11-19 20:40:05",
+  "kind": "news",
+  "text": "News spike: 'LNG production offshore' grew by 41 articles (34 \u2192 75)"
+ },
+ {
   "timestamp": "2026-11-19 11:43:06",
   "kind": "price",
   "text": "SHEL moved -2.98% since the last check (now $94.34)"
