@@ -1,5 +1,10 @@
 [
  {
+  "timestamp": "2026-11-19 02:35:57",
+  "kind": "price",
+  "text": "SHEL moved +3.04% since the last check (now $97.24)"
+ },
+ {
   "timestamp": "2026-11-18 20:34:33",
   "kind": "price",
   "text": "SHEL moved -2.95% since the last check (now $94.37)"
