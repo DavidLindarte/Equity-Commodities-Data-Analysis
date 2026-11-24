@@ -1,7 +1,7 @@
 {
- "generated_utc": "2026-11-23T21:27:33+00:00",
+ "generated_utc": "2026-11-24T09:57:00+00:00",
  "start_date": "2026-07-07",
- "snapshots": 42,
+ "snapshots": 43,
  "rules": {
   "price_alert_pct": 2.0,
   "news_spike": 5
@@ -411,7 +411,7 @@
     }
    ],
    "pct_vs_avg": -12.22,
-   "pct_vs_last": -1.27
+   "pct_vs_last": 0.0
   },
   {
    "ticker": "SHEL",
@@ -817,14 +817,14 @@
     }
    ],
    "pct_vs_avg": -0.97,
-   "pct_vs_last": -0.72
+   "pct_vs_last": 0.0
   }
  ],
  "topics": [
   {
    "topic": "LNG production offshore",
-   "count": 34,
-   "delta": 1,
+   "count": 75,
+   "delta": 41,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -988,14 +988,18 @@
     },
     {
      "timestamp": "2026-11-23 21:27:33",
-     "count": 34
+     "count": 34.0
+    },
+    {
+     "timestamp": "2026-11-24 09:57:00",
+     "count": 75
     }
    ]
   },
   {
    "topic": "gas accident 2026",
-   "count": 35,
-   "delta": 2,
+   "count": 100,
+   "delta": 65,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -1159,13 +1163,17 @@
     },
     {
      "timestamp": "2026-11-23 21:27:33",
-     "count": 35
+     "count": 35.0
+    },
+    {
+     "timestamp": "2026-11-24 09:57:00",
+     "count": 100
     }
    ]
   },
   {
    "topic": "communities strike oil",
-   "count": 30,
+   "count": 32,
    "delta": 2,
    "trend": [
     {
@@ -1330,7 +1338,11 @@
     },
     {
      "timestamp": "2026-11-23 21:27:33",
-     "count": 30
+     "count": 30.0
+    },
+    {
+     "timestamp": "2026-11-24 09:57:00",
+     "count": 32
     }
    ]
   },
@@ -1501,6 +1513,10 @@
     },
     {
      "timestamp": "2026-11-23 21:27:33",
+     "count": 0.0
+    },
+    {
+     "timestamp": "2026-11-24 09:57:00",
      "count": 0
     }
    ]
@@ -1664,12 +1680,26 @@
     },
     {
      "timestamp": "2026-11-23 21:27:33",
+     "count": 8.0
+    },
+    {
+     "timestamp": "2026-11-24 09:57:00",
      "count": 8
     }
    ]
   }
  ],
  "alerts": [
+  {
+   "timestamp": "2026-11-24 09:57:00",
+   "kind": "news",
+   "text": "News spike: 'LNG production offshore' grew by 41 articles (34 \u2192 75)"
+  },
+  {
+   "timestamp": "2026-11-24 09:57:00",
+   "kind": "news",
+   "text": "News spike: 'gas accident 2026' grew by 65 articles (35 \u2192 100)"
+  },
   {
    "timestamp": "2026-11-21 02:18:31",
    "kind": "news",
