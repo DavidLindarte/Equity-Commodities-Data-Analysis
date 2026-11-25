@@ -1,7 +1,7 @@
 {
- "generated_utc": "2026-11-24T22:28:44+00:00",
+ "generated_utc": "2026-11-25T08:39:11+00:00",
  "start_date": "2026-07-07",
- "snapshots": 44,
+ "snapshots": 45,
  "rules": {
   "price_alert_pct": 2.0,
   "news_spike": 5
@@ -415,7 +415,7 @@
     }
    ],
    "pct_vs_avg": -10.88,
-   "pct_vs_last": 1.44
+   "pct_vs_last": 0.0
   },
   {
    "ticker": "SHEL",
@@ -825,14 +825,14 @@
     }
    ],
    "pct_vs_avg": -0.43,
-   "pct_vs_last": 0.55
+   "pct_vs_last": 0.0
   }
  ],
  "topics": [
   {
    "topic": "LNG production offshore",
-   "count": 35,
-   "delta": -40,
+   "count": 33,
+   "delta": -2,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -1004,14 +1004,18 @@
     },
     {
      "timestamp": "2026-11-24 22:28:44",
-     "count": 35
+     "count": 35.0
+    },
+    {
+     "timestamp": "2026-11-25 08:39:11",
+     "count": 33
     }
    ]
   },
   {
    "topic": "gas accident 2026",
-   "count": 34,
-   "delta": -66,
+   "count": 100,
+   "delta": 66,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -1183,14 +1187,18 @@
     },
     {
      "timestamp": "2026-11-24 22:28:44",
-     "count": 34
+     "count": 34.0
+    },
+    {
+     "timestamp": "2026-11-25 08:39:11",
+     "count": 100
     }
    ]
   },
   {
    "topic": "communities strike oil",
    "count": 72,
-   "delta": 40,
+   "delta": 0,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -1362,6 +1370,10 @@
     },
     {
      "timestamp": "2026-11-24 22:28:44",
+     "count": 72.0
+    },
+    {
+     "timestamp": "2026-11-25 08:39:11",
      "count": 72
     }
    ]
@@ -1541,14 +1553,18 @@
     },
     {
      "timestamp": "2026-11-24 22:28:44",
+     "count": 0.0
+    },
+    {
+     "timestamp": "2026-11-25 08:39:11",
      "count": 0
     }
    ]
   },
   {
    "topic": "wael sawan australia",
-   "count": 8,
-   "delta": 0,
+   "count": 7,
+   "delta": -1,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -1712,12 +1728,21 @@
     },
     {
      "timestamp": "2026-11-24 22:28:44",
-     "count": 8
+     "count": 8.0
+    },
+    {
+     "timestamp": "2026-11-25 08:39:11",
+     "count": 7
     }
    ]
   }
  ],
  "alerts": [
+  {
+   "timestamp": "2026-11-25 08:39:11",
+   "kind": "news",
+   "text": "News spike: 'gas accident 2026' grew by 66 articles (34 \u2192 100)"
+  },
   {
    "timestamp": "2026-11-24 22:28:44",
    "kind": "news",
