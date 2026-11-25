@@ -1,5 +1,15 @@
 [
  {
+  "timestamp": "2026-11-25 19:19:06",
+  "kind": "price",
+  "text": "WDS moved +2.13% since the last check (now $20.17)"
+ },
+ {
+  "timestamp": "2026-11-25 19:19:06",
+  "kind": "news",
+  "text": "News spike: 'LNG production offshore' grew by 45 articles (33 \u2192 78)"
+ },
+ {
   "timestamp": "2026-11-25 08:39:11",
   "kind": "news",
   "text": "News spike: 'gas accident 2026' grew by 66 articles (34 \u2192 100)"
