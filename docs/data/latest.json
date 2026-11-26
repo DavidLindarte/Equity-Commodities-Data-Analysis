@@ -1,7 +1,7 @@
 {
- "generated_utc": "2026-11-26T03:35:54+00:00",
+ "generated_utc": "2026-11-26T16:56:45+00:00",
  "start_date": "2026-07-07",
- "snapshots": 47,
+ "snapshots": 48,
  "rules": {
   "price_alert_pct": 2.0,
   "news_spike": 5
@@ -419,7 +419,7 @@
     }
    ],
    "pct_vs_avg": -8.72,
-   "pct_vs_last": 0.2
+   "pct_vs_last": 0.0
   },
   {
    "ticker": "SHEL",
@@ -833,14 +833,14 @@
     }
    ],
    "pct_vs_avg": 0.33,
-   "pct_vs_last": -0.15
+   "pct_vs_last": 0.0
   }
  ],
  "topics": [
   {
    "topic": "LNG production offshore",
    "count": 34,
-   "delta": -44,
+   "delta": 0,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -1024,6 +1024,10 @@
     },
     {
      "timestamp": "2026-11-26 03:35:54",
+     "count": 34.0
+    },
+    {
+     "timestamp": "2026-11-26 16:56:45",
      "count": 34
     }
    ]
@@ -1215,14 +1219,18 @@
     },
     {
      "timestamp": "2026-11-26 03:35:54",
+     "count": 100.0
+    },
+    {
+     "timestamp": "2026-11-26 16:56:45",
      "count": 100
     }
    ]
   },
   {
    "topic": "communities strike oil",
-   "count": 72,
-   "delta": 2,
+   "count": 70,
+   "delta": -2,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -1406,7 +1414,11 @@
     },
     {
      "timestamp": "2026-11-26 03:35:54",
-     "count": 72
+     "count": 72.0
+    },
+    {
+     "timestamp": "2026-11-26 16:56:45",
+     "count": 70
     }
    ]
   },
@@ -1597,6 +1609,10 @@
     },
     {
      "timestamp": "2026-11-26 03:35:54",
+     "count": 0.0
+    },
+    {
+     "timestamp": "2026-11-26 16:56:45",
      "count": 0
     }
    ]
@@ -1780,6 +1796,10 @@
     },
     {
      "timestamp": "2026-11-26 03:35:54",
+     "count": 8.0
+    },
+    {
+     "timestamp": "2026-11-26 16:56:45",
      "count": 8
     }
    ]
