@@ -1,7 +1,7 @@
 {
- "generated_utc": "2026-11-27T12:25:41+00:00",
+ "generated_utc": "2026-11-27T23:28:49+00:00",
  "start_date": "2026-07-07",
- "snapshots": 50,
+ "snapshots": 51,
  "rules": {
   "price_alert_pct": 2.0,
   "news_spike": 5
@@ -10,8 +10,8 @@
   {
    "ticker": "WDS",
    "name": "Woodside Energy",
-   "price": 20.21,
-   "avg": 22.14,
+   "price": 20.68,
+   "avg": 22.12,
    "history": [
     {
      "date": "2026-07-07",
@@ -416,16 +416,20 @@
     {
      "date": "2026-11-25",
      "close": 20.21
+    },
+    {
+     "date": "2026-11-27",
+     "close": 20.68
     }
    ],
-   "pct_vs_avg": -8.72,
-   "pct_vs_last": 0.0
+   "pct_vs_avg": -6.51,
+   "pct_vs_last": 2.33
   },
   {
    "ticker": "SHEL",
    "name": "Shell",
-   "price": 94.13,
-   "avg": 93.82,
+   "price": 95.47,
+   "avg": 93.83,
    "history": [
     {
      "date": "2026-07-07",
@@ -830,17 +834,21 @@
     {
      "date": "2026-11-25",
      "close": 94.13
+    },
+    {
+     "date": "2026-11-27",
+     "close": 95.47
     }
    ],
-   "pct_vs_avg": 0.33,
-   "pct_vs_last": 0.0
+   "pct_vs_avg": 1.75,
+   "pct_vs_last": 1.42
   }
  ],
  "topics": [
   {
    "topic": "LNG production offshore",
-   "count": 34,
-   "delta": 0,
+   "count": 76,
+   "delta": 42,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -1036,14 +1044,18 @@
     },
     {
      "timestamp": "2026-11-27 12:25:41",
-     "count": 34
+     "count": 34.0
+    },
+    {
+     "timestamp": "2026-11-27 23:28:49",
+     "count": 76
     }
    ]
   },
   {
    "topic": "gas accident 2026",
-   "count": 99,
-   "delta": -1,
+   "count": 33,
+   "delta": -66,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -1239,13 +1251,17 @@
     },
     {
      "timestamp": "2026-11-27 12:25:41",
-     "count": 99
+     "count": 99.0
+    },
+    {
+     "timestamp": "2026-11-27 23:28:49",
+     "count": 33
     }
    ]
   },
   {
    "topic": "communities strike oil",
-   "count": 71,
+   "count": 70,
    "delta": -1,
    "trend": [
     {
@@ -1442,7 +1458,11 @@
     },
     {
      "timestamp": "2026-11-27 12:25:41",
-     "count": 71
+     "count": 71.0
+    },
+    {
+     "timestamp": "2026-11-27 23:28:49",
+     "count": 70
     }
    ]
   },
@@ -1645,6 +1665,10 @@
     },
     {
      "timestamp": "2026-11-27 12:25:41",
+     "count": 0.0
+    },
+    {
+     "timestamp": "2026-11-27 23:28:49",
      "count": 0
     }
    ]
@@ -1652,7 +1676,7 @@
   {
    "topic": "wael sawan australia",
    "count": 9,
-   "delta": 1,
+   "delta": 0,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -1840,12 +1864,26 @@
     },
     {
      "timestamp": "2026-11-27 12:25:41",
+     "count": 9.0
+    },
+    {
+     "timestamp": "2026-11-27 23:28:49",
      "count": 9
     }
    ]
   }
  ],
  "alerts": [
+  {
+   "timestamp": "2026-11-27 23:28:49",
+   "kind": "price",
+   "text": "WDS moved +2.33% since the last check (now $20.68)"
+  },
+  {
+   "timestamp": "2026-11-27 23:28:49",
+   "kind": "news",
+   "text": "News spike: 'LNG production offshore' grew by 42 articles (34 \u2192 76)"
+  },
   {
    "timestamp": "2026-11-25 19:19:06",
    "kind": "price",
@@ -1935,16 +1973,6 @@
    "timestamp": "2026-11-05 01:28:39",
    "kind": "price",
    "text": "SHEL moved +2.83% since the last check (now $104.2)"
-  },
-  {
-   "timestamp": "2026-11-04 19:47:13",
-   "kind": "price",
-   "text": "WDS moved -4.47% since the last check (now $21.36)"
-  },
-  {
-   "timestamp": "2026-11-04 19:47:13",
-   "kind": "price",
-   "text": "SHEL moved -2.75% since the last check (now $101.33)"
   }
  ]
 }
