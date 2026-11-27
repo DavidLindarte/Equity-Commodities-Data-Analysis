@@ -1,7 +1,7 @@
 {
- "generated_utc": "2026-11-27T01:45:11+00:00",
+ "generated_utc": "2026-11-27T12:25:41+00:00",
  "start_date": "2026-07-07",
- "snapshots": 49,
+ "snapshots": 50,
  "rules": {
   "price_alert_pct": 2.0,
   "news_spike": 5
@@ -1032,14 +1032,18 @@
     },
     {
      "timestamp": "2026-11-27 01:45:11",
+     "count": 34.0
+    },
+    {
+     "timestamp": "2026-11-27 12:25:41",
      "count": 34
     }
    ]
   },
   {
    "topic": "gas accident 2026",
-   "count": 100,
-   "delta": 0,
+   "count": 99,
+   "delta": -1,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -1231,14 +1235,18 @@
     },
     {
      "timestamp": "2026-11-27 01:45:11",
-     "count": 100
+     "count": 100.0
+    },
+    {
+     "timestamp": "2026-11-27 12:25:41",
+     "count": 99
     }
    ]
   },
   {
    "topic": "communities strike oil",
-   "count": 72,
-   "delta": 2,
+   "count": 71,
+   "delta": -1,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -1430,7 +1438,11 @@
     },
     {
      "timestamp": "2026-11-27 01:45:11",
-     "count": 72
+     "count": 72.0
+    },
+    {
+     "timestamp": "2026-11-27 12:25:41",
+     "count": 71
     }
    ]
   },
@@ -1629,14 +1641,18 @@
     },
     {
      "timestamp": "2026-11-27 01:45:11",
+     "count": 0.0
+    },
+    {
+     "timestamp": "2026-11-27 12:25:41",
      "count": 0
     }
    ]
   },
   {
    "topic": "wael sawan australia",
-   "count": 8,
-   "delta": 0,
+   "count": 9,
+   "delta": 1,
    "trend": [
     {
      "timestamp": "2026-11-03 10:30:21",
@@ -1820,7 +1836,11 @@
     },
     {
      "timestamp": "2026-11-27 01:45:11",
-     "count": 8
+     "count": 8.0
+    },
+    {
+     "timestamp": "2026-11-27 12:25:41",
+     "count": 9
     }
    ]
   }
